@@ -14,7 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
-/*Route::get('/sobre', function ($id) {
-
-});*/
+Route::get('sobre', 'PaginaBasicaController@sobre');
+Route::get('contato', 'PaginaBasicaController@contato');
