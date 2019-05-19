@@ -23,5 +23,6 @@ class PageOneController extends Controller
         $email="view3@if.com";
         $telefone="(38) 99999999";
         return view('view1')->with('email',$email)->with('telefone',$telefone);
+        //teste commit
     }
 }
